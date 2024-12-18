@@ -19,7 +19,7 @@ type Game1() as this =
         base.Initialize()
 
     override this.LoadContent() =
-        do spriteBatch <- new SpriteBatch(base.GraphicsDevice)
+        do spriteBatch <- new SpriteBatch(graphics.GraphicsDevice)
 
     // TODO: use this.Content to load your game content here
 
